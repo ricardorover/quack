@@ -16,6 +16,8 @@
 			}
 
       #board {
+          max-height: 400px;
+          max-width: 400px;
 				border: 5px solid red;
 				-moz-box-sizing: border-box;
         background:
@@ -50,11 +52,32 @@
           background-size: 40px 40px;
         }   
       }
+      #dialog {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          opacity: 0.8;
+          color: white;
+      }
 		</style>
 	</head>
 	<body>
 		<div id='board'>
 			<div id='ball'></div>
+                        
+                <div id='dialog'>
+                    <h3>Quack</h3>
+                    Este programa é software livre pela licença GPL v3
+                    <br/>
+                    Código fonte e contribuições em <a href="https://github.com/ricardorover/quack">https://github.com/ricardorover/quack</a>
+                    <br/>
+                    <br/>
+                    Equilibre o pato no centro da tela, não o deixe cair!
+                    <br/>
+                    <br/>
+                    <button onclick="javascript:hideDialog()">Jogar</button>
+                </div>
 		</div>
 		<script>
 			var acceleration = [0, 0], interval = 100;
@@ -67,6 +90,7 @@
 			}
 
                         function handleOrientation(event) {
+                            //TODO not working yet
                                 var x = event.beta;  // In degree in the range [-180,180]
                                 var y = event.gamma; // In degree in the range [-90,90]
 
@@ -166,18 +190,28 @@
 			}
 
 			function initElements() {
+                                //TODO init ball element on center of board
 				ball.dom.parentElement.style.position = 'relative';
 				var style = ball.dom.style;
 				
 				style.position = 'absolute';
 				// style.transition = 'left ' + interval + 'ms';
 			}
+                        
+                        function hideDialog() {
+                            document.getElementById('dialog').style.visibility = 'hidden';
+                            startGame();
+                        }
+                        
+                        function startGame(){
+                            //TODO reset elements
+                            initDesktop();//uses keyboard
+                            initMobile();//uses accelerometer
+                        }
 			
 			window.onload = function() {
-				initElements();
-				//initDesktop();//uses keyboard
-                                initMobile();//uses accelerometer
-				initTimer();
+                            initTimer();
+                            initElements();
 			}
 		</script>
 	</body>
