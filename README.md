@@ -3,6 +3,7 @@
 This is the guide of the webapp Quack, under license GPL v3, initially done as
 way to test and learn the capabilities of Firefox OS.
 
+Disponible on web link [http://ricardo.joaorover.com/quack/](http://ricardo.joaorover.com/quack/)
 
 ##Developers##
 
