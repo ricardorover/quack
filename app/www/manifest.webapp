@@ -16,7 +16,7 @@
 	"installs_allowed_from": ["*"],
 	"locales": {
 		"br": {
-			"description": "Equilibre o pato pelo caminho correto, leve-o à saída desta armadilha",
+			"description": "Equilibre o pato pelo caminho correto, leve-o à saída desta armadilha"
 		}
 	},
 	"default_locale": "en",
