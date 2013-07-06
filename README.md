@@ -7,8 +7,8 @@ Disponible on web link [http://ricardo.joaorover.com/quack/](http://ricardo.joao
 
 ##Developers##
 
-#### Augusto Hack [[github]](https://github.com/hackaugusto)
-#### Ricardo Rover [[github]](https://github.com/ricardorover) [[website]](http://ricardo.joaorover.com)
+#### Augusto Hack [[github]](https://github.com/hackaugusto) [hack.augusto at gmail.com]
+#### Ricardo Rover [[github]](https://github.com/ricardorover) [[website]](http://ricardo.joaorover.com) [ricardo at joaorover.com]
 
 
 ##Installing##
