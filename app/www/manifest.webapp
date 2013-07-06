@@ -1,14 +1,9 @@
 {
 	"version": "0.1",
 	"name": "Quack",
-	"description": "Balance the duck to the right path, take it away from this trap",
+	"description": "Balance the duck, always on the water",
 	"launch_path": "/index.htm",
 	"appcache_path": "/offline.appcache",
-	"icons": {
-		"16": "/img/icons/mortar-16.png",
-		"48": "/img/icons/mortar-48.png",
-		"128": "/img/icons/mortar-128.png"
-	},
 	"developer": {
 		"name": "Ricardo Rover and Augusto Hack",
 		"url": "https://github.com/ricardorover/quack"
@@ -16,7 +11,7 @@
 	"installs_allowed_from": ["*"],
 	"locales": {
 		"br": {
-			"description": "Equilibre o pato pelo caminho correto, leve-o à saída desta armadilha"
+			"description": "Equilibre o pato e o mantenha sempre na água"
 		}
 	},
 	"default_locale": "en",
