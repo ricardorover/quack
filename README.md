@@ -1,4 +1,4 @@
-#QUACK!#
+#Quack#
 
 This is the guide of the webapp Quack, under license GPL v3, initially done as
 way to test and learn the capabilities of Firefox OS.
