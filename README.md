@@ -1,17 +1,18 @@
-#Firefox OS Quick Start#
+#QUACK!#
 
-This guide and sample app have been assembled to get you up and running with an open web app in five minutes!
+This is the guide of the webapp Quack, under license GPL v3, initially done as
+way to test and learn the capabilities of Firefox OS.
 
-Included within this Quick Start Guide is:
+##Developers##
 
-*  A complete application stub that runs out of the box
-*  Sample JavaScript feature detection and CSS media query (responsive design) code
-*  Mortar-based simple UI framework with ZeptoJS
+### Ricardo Rover [github](https://github.com/ricardorover) [website](http://ricardo.joaorover.com)
+### Augusto Hack [github](https://github.com/hackaugusto)
 
-##Installation##
+
+##Installing##
 
 ###1.  Clone this repository###
-	git clone git@github.com:mozilla/firefoxos-quick-start.git
+	git clone git@github.com:ricardorover/quack.git
 
 ###2.  Install volo###
 	npm install -g volo
@@ -19,25 +20,13 @@ Included within this Quick Start Guide is:
 You may need to use `sudo npm install -g volo` if your user doesn't have admin permissions.
 
 ###3.  Run the app!###
-	cd firefoxos-quick-start/app
+	cd quick/app
 	volo serve
 
-###4.  Visit in browser or Firefox OS Simulator###
+###4.  Visit in browser or [Firefox OS Simulator](https://addons.mozilla.org/pt-br/firefox/addon/firefox-os-simulator/)###
 	http://localhost:8008
 
-##Resources##
 
-###Firefox OS Resources###
-*  [Firefox Marketplace](https://marketplace.firefox.com)
-*  [Firefox OS Simulator](https://marketplace.firefox.com/developers/docs/firefox_os_simulator)
-*  [Mortar: Open Web App Templates](https://github.com/mozilla/mortar)
-*  [Creating the AreaTweet App](https://developer.mozilla.org/en-US/docs/Apps/Tutorials/General)
-*  [Firefox OS Building Blocks to the Rescue - Style Elements Like Firefox OS](https://hacks.mozilla.org/2013/02/firefox-os-building-blocks-to-the-rescue/)
+##Playing the game##
 
-###Client-side Techniques###
-*  [WebAPI Documentation on MDN](https://developer.mozilla.org/en-US/docs/WebAPI)
-*  [CSS Media Queries](https://developer.mozilla.org/en-US/docs/CSS/Media_queries)
-*  [Modernizr: Feature Detection Library](http://modernizr.com)
-*  [Mozilla Developer Network](https://developer.mozilla.org)
-*  [WebPlatform](http://www.webplatform.org)
-*  [QUnit Testing Library](http://qunitjs.com/)
+### Coming soon!

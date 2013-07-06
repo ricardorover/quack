@@ -1,8 +1,8 @@
 {
 	"version": "0.1",
 	"name": "Quack",
-	"description": "Equilibre o pato, leve-o à saída desta armadilha",
-	"launch_path": "/index.html",
+	"description": "Balance the duck to the right path, take it away from this trap",
+	"launch_path": "/index.htm",
 	"appcache_path": "/offline.appcache",
 	"icons": {
 		"16": "/img/icons/mortar-16.png",
@@ -15,17 +15,8 @@
 	},
 	"installs_allowed_from": ["*"],
 	"locales": {
-		"es": {
-			"description": "Su nueva aplicación impresionante Open Web",
-			"developer": {
-				"url": "http://yourawesomeapp.com"
-			}
-		},
-		"it": {
-			"description": "Il vostro nuovo fantastico Open Web App",
-			"developer": {
-				"url": "http://yourawesomeapp.com"
-			}
+		"br": {
+			"description": "Equilibre o pato pelo caminho correto, leve-o à saída desta armadilha",
 		}
 	},
 	"default_locale": "en",
