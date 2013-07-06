@@ -6,8 +6,8 @@ way to test and learn the capabilities of Firefox OS.
 
 ##Developers##
 
-#### Augusto Hack [github](https://github.com/hackaugusto)
-#### Ricardo Rover [github](https://github.com/ricardorover) [website](http://ricardo.joaorover.com)
+#### Augusto Hack [[github]](https://github.com/hackaugusto)
+#### Ricardo Rover [[github]](https://github.com/ricardorover) [[website]](http://ricardo.joaorover.com)
 
 
 ##Installing##
@@ -30,4 +30,12 @@ You may need to use `sudo npm install -g volo` if your user doesn't have admin p
 
 ##Playing the game##
 
-### Coming soon!
+###1. Firefox Browser on Desktop
+
+Use the direcional keys to control the duck accelleration, avoiding to let him go out of the water
+
+
+###2. Firefox OS and Firefox Browser for Android
+##### (Attention! It's an experimental feature yet, not fully tested and operational yet)
+
+Use your smartphone position (as a table) to mantain the duck on the water side of the screen
