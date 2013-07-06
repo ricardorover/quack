@@ -1,12 +1,12 @@
-#QUACK!#
+#Quack#
 
 This is the guide of the webapp Quack, under license GPL v3, initially done as
 way to test and learn the capabilities of Firefox OS.
 
 ##Developers##
 
-### Ricardo Rover [github](https://github.com/ricardorover) [website](http://ricardo.joaorover.com)
-### Augusto Hack [github](https://github.com/hackaugusto)
+### Ricardo Rover [[github]](https://github.com/ricardorover) [[website]](http://ricardo.joaorover.com)
+### Augusto Hack [[github]](https://github.com/hackaugusto)
 
 
 ##Installing##
