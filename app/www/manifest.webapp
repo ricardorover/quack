@@ -1,7 +1,7 @@
 {
 	"version": "0.1",
-	"name": "Your App",
-	"description": "Your new awesome Open Web App",
+	"name": "Quack",
+	"description": "Equilibre o pato, leve-o à saída desta armadilha",
 	"launch_path": "/index.html",
 	"appcache_path": "/offline.appcache",
 	"icons": {
@@ -10,8 +10,8 @@
 		"128": "/img/icons/mortar-128.png"
 	},
 	"developer": {
-		"name": "Your Name",
-		"url": "http://yourawesomeapp.com"
+		"name": "Ricardo Rover and Augusto Hack",
+		"url": "https://github.com/ricardorover/quack"
 	},
 	"installs_allowed_from": ["*"],
 	"locales": {
